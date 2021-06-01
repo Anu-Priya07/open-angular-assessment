@@ -1,0 +1,67 @@
+<div class="container" *ngIf="allImageLinks">
+    <div class="image-bigger-circle" >
+        <img class="circle-big" [src]="allImageLinks.homeScreen.circle">
+    </div>
+    <div class="image-smaller-circle" >
+        <img class="circle-small" [src]="allImageLinks.homeScreen.blobSmall">
+    </div>
+    <div class="first-image-accounting-dots">
+        <img [src]="allImageLinks.homeScreen.accountingDots">
+    </div>
+    <div class="second-image-accounting-dots">
+        <img [src]="allImageLinks.homeScreen.accountingDots">
+    </div>
+    <div class="wave-image">
+        <img class="wave-dimension" [src]="allImageLinks.homeScreen.wave">
+    </div>
+    <div class="header-tagline">
+        We make it Super<br>Simple
+        <div class="tagline-line margin-top-15"></div>
+    </div>
+    <div class="collect-image">
+        <div class="column-1">
+            <img class="collect-image-dimension" [src]="allImageLinks.homeScreen.collectingImage">
+        </div>
+        <div class="column-2">
+            <app-eligibility-calculator></app-eligibility-calculator>
+        </div>
+        <div class="column-3">
+            <app-final-calculated-amount-card></app-final-calculated-amount-card>
+        </div>
+    </div>
+
+    <div class="benefit-column" *ngIf="benefitArray.length > 0">
+        <div class="benefit-card-section">
+            <div>
+                <app-benefit-card [benefitLineItem] = "benefitArray[0]"></app-benefit-card>
+                <span class="second-benecift-card-section float-right">
+                    <app-benefit-card [benefitLineItem] = "benefitArray[3]"></app-benefit-card>
+                </span>
+            </div>
+            <div>
+                <app-benefit-card [benefitLineItem] = "benefitArray[1]"></app-benefit-card>
+                <span class="second-benecift-card-section float-right">
+                    <app-benefit-card [benefitLineItem] = "benefitArray[4]"></app-benefit-card>
+                </span>
+            </div>
+            <div>
+                <app-benefit-card [benefitLineItem] = "benefitArray[2]"></app-benefit-card>
+            </div>
+        </div>
+        <div class="benefit-second-section">
+            <div class="header-tagline margin-bottom-10">
+                Boost your business
+            </div>
+            <div class="header-tagline margin-bottom-25">
+                with Open
+            </div>
+            <div class="tagline-underline margin-bottom-25"></div>
+            <div class="benefit-second-section-description margin-bottom-25">
+                Get your hands on a term loan that's <br> crafted for your business
+            </div>
+            <div class="">
+                <button typ="button" class="button-basic get-open-account-button">Get an Open Account</button>
+            </div>
+        </div>
+    </div>
+</div>

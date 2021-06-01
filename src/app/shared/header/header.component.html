@@ -1,0 +1,18 @@
+<header>
+    <div class="header" (scroll)="onWindowScroll()">
+        <div class="float-left header-logo" *ngIf="appLogo">
+            <img class="img-dimension" [src]="appLogo">
+        </div>
+        <ul class="float-right header-menu">
+            <li class="header-menu-item">Products</li>
+            <li class="header-menu-item">Solutions</li>
+            <li class="header-menu-item">Pricing</li>
+            <li class="header-menu-item margin-left-40">
+                <button class="button-basic button-login" type="button">Login</button>
+            </li>
+            <li class="header-menu-item">
+                <button class="button-basic button-get-started" type="button">Get Started</button>
+            </li>
+        </ul>
+    </div>
+</header>

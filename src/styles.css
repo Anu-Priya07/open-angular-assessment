@@ -1,0 +1,58 @@
+/* You can add global styles to this file, and also import other style files */
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.button-basic {
+    background-color: white;
+    box-shadow: 0px 0px 20px #00000033;
+    border-radius: 24px;
+    padding: 2px 25px 2px 25px;
+    display: inline-block;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+
+.margin-top-15 {
+    margin-top: 15px;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+.margin-bottom-10 {
+    margin-bottom: 10px;
+}
+
+.margin-bottom-12 {
+    margin-bottom: 12px;
+}
+
+.margin-bottom-15 {
+    margin-bottom: 15px;
+}
+
+.margin-bottom-20 {
+    margin-bottom: 20px;
+}
+
+.margin-bottom-25 {
+    margin-bottom: 25px;
+}
+
+.margin-left-40 {
+    margin-left: 40px !important;
+}

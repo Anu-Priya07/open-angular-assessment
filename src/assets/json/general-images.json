@@ -1,0 +1,12 @@
+{
+    "header": {
+        "appLogo" : "assets/images/logo.png"
+    },
+    "homeScreen" : {
+        "circle" : "assets/images/circle.png",
+        "blobSmall" : "assets/images/blob_small.png",
+        "accountingDots" : "assets/images/accounting_dots.svg",
+        "wave" : "assets/images/wave.png",
+        "collectingImage":"assets/images/collect_img_video.png"
+    }
+}

@@ -1,0 +1,68 @@
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.header-scrolled {
+    box-shadow: 0px 0px 20px #00000033;
+    background-color: #FFFFFF;
+}
+
+.header-logo {
+    padding-left: 65px;
+    padding-top: 10px;
+}
+
+.header-menu {
+    flex-direction: row;
+    display: flex;
+    list-style: none;
+    margin-top: 30px;
+    margin-right: 80px;
+    align-items: center
+}
+
+.img-dimension {
+    height: 70px !important;
+    width: 70px !important;
+}
+
+.header-menu-item {
+    padding: 0 15px 0 15px;
+    font: normal normal normal 20px Open Sans;
+    letter-spacing: 0px;
+    color: #222222;
+    opacity: 1;
+}
+
+.header-menu-item:hover {
+    color: #663399;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.button-login {
+    border: 2px solid #663399;
+    background-color: white;
+    color: #663399;
+}
+
+.button-login:hover , .button-login:active, .button-login:focus {
+    background-color: #663399;
+    color: #FFFFFF;
+}
+
+.button-get-started {
+    background: linear-gradient( #9F62C9, #663399);
+    color: white;
+    border: 2px solid  #9F62C9;
+}
+
+.button-get-started:hover , .button-get-started:active , .button-get-started:focus {
+    background: #663399;
+    border-radius: 2px solid #663399;
+}

@@ -1,0 +1,28 @@
+[
+    {
+        "benefitImageLink" : "assets/images/get _paid _instantly.png",
+        "benefitTitle" : "Quick cash disbursement",
+        "benefitDescription": "Get terms loans that your business needs within 72 hrs"
+    },
+    {
+        "benefitImageLink" : "assets/images/low_interest _rate.png",
+        "benefitTitle" : "Low-interest rate",
+        "benefitDescription": "Achieve your financial goals with an amazing interest rate starting at 13% per annum"
+    },
+    {
+        "benefitImageLink" : "assets/images/secure _payments.png",
+        "benefitTitle" : "Zero Paperwork",
+        "benefitDescription": "Get started instantly by submitting only your basic details & bank statements"
+    },
+    {
+        "benefitImageLink" : "assets/images/freelancer_feature_icon.png",
+        "benefitTitle" : "Ace your business finances",
+        "benefitDescription": "Manage banking, accounting & everything in between, on one platform"
+    },
+    {
+        "benefitImageLink" : "assets/images/covid_icon.png",
+        "benefitTitle" : "Loans to fight COVID-19",
+        "benefitDescription": "Zero EMI for first 3 months on Back-to-Business loans of upto 1 lakh"
+    }
+
+]

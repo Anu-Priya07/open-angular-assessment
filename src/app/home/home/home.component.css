@@ -1,0 +1,139 @@
+.image-bigger-circle {
+    top: -108px;
+    position: absolute;
+    right: -65px;
+    z-index: -1;
+}
+
+.image-smaller-circle {
+    left: -50px;
+    position: absolute;
+    top: 150px;
+    z-index: -1;
+}
+
+.first-image-accounting-dots {
+    top: 470px;
+    position: absolute;
+    left: 300px;
+    z-index: -1;
+}
+
+.second-image-accounting-dots {
+    top: 630px;
+    position: absolute;
+    left: 800px;
+    z-index: -1;
+}
+
+.wave-image {
+    z-index: -1;
+    position: absolute;
+    top: 920px;
+    left: 0;
+}
+
+.wave-dimension {
+    width: 1350px;
+}
+
+.circle-big {
+    height: 650px;
+    width: 850px;
+}
+
+.circle-small {
+    height: 300px;
+    width: 300px;
+}
+
+.container {
+    padding-top: 100px;
+    padding-left: 50px;
+    width: 100%;
+    padding-right: 30px;
+}
+
+.header-tagline {
+    font-weight: 600;
+    font-size: 32px;
+    font-family: Georgia, serif;
+}
+
+.tagline-line {
+    border: 1px solid #000000;
+    height: 4px;
+    width: 200px;
+    border-radius: 24px;
+    background-color: #000000;
+}
+
+.collect-image-dimension {
+    height: 260px;
+    width: 500px;
+    margin-top: 40px;
+}
+
+.collect-image {
+    display: flex;
+    width: 100%;
+}
+
+.column-1 {
+    width : 40%;
+}
+
+.column-2{
+    width : 32%;
+}
+
+.column-3{
+    width : 20%;
+}
+
+.benefit-column {
+    width: 100%;
+    margin-top: 110px;
+    display: flex;
+}
+
+.benefit-card-section {
+    width: 60%;
+}
+
+.benefit-second-section {
+    width: 40%;
+    margin-top: 180px;
+}
+
+.second-benecift-card-section {
+    margin-top: -100px;
+    margin-right: 160px;
+}
+
+.tagline-underline {
+    border: 1px solid #000000;
+    height: 4px;
+    width: 100px;
+    border-radius: 24px;
+    background-color: #000000;
+}
+
+.benefit-second-section-description {
+    opacity: 0.5;
+    font-size: 20px;
+}
+
+.get-open-account-button {
+    background: none;
+    border: 2px solid #663399;
+    color: #663399;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 600;
+}
+
+.get-open-account-button:hover , .get-open-account-button:focus {
+    background-color: #663399;
+    color: #FFFFFF;
+}

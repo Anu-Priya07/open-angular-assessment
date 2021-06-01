@@ -1,0 +1,61 @@
+<div class="eligibility-card">
+    <div class="eligibility-title">
+        Eligibility Calculator
+    </div>
+    <div class="eligibility-content">
+        <form #eligibilityForm="ngForm">
+            <div class="form-content margin-top-15 margin-bottom-15">
+                <label class="form-label margin-bottom-10">Monthly Income</label>
+                <div class="eligibility-value margin-bottom-10">
+                    &#8377; {{monthlyIncome}}
+                </div>
+                <div class="range-slider">
+                    <input id="monthlyIncomeInputRange" type="range" (change)="onChangeMonthlyIncomeInputRange()" [(ngModel)]="monthlyIncome" name="monthlyIncomeInput" min="100000" max="300000">
+                </div>
+                
+                <div class="eligibility-range-value">
+                    <span class="float-left">
+                        &#8377; 100000
+                    </span>
+                    <span class="float-right">
+                        &#8377; 300000
+                    </span>
+                </div>
+            </div>
+            <div class="form-content margin-top-15 margin-bottom-15">
+                <label class="form-label margin-bottom-10">Monthly Expense</label>
+                <div class="eligibility-value margin-bottom-10">
+                    &#8377; {{monthlyExpense}}
+                </div>
+                <div class="range-slider">
+                    <input id="monthlyExpenseInputRange" (change)="onChangeMonthlyExpenseInputRange()" type="range" [(ngModel)]="monthlyExpense" name="monthlyIncomeINput" min="10000" max="100000">
+                </div>
+            </div>
+            <div class="form-content margin-top-15 margin-bottom-15">
+                <label class="form-label margin-bottom-10">Repayment Tenure</label>
+                <select class="select-tenure" name="repaymentTenure">
+                    <option value="3">3 Months</option>
+                    <option value="6">6 Months</option>
+                    <option value="9">9 Months</option>
+                    <option value="12">12 Months</option>
+                </select>
+            </div>
+            <div class="form-content margin-top-15 margin-bottom-15">
+                <div class="existing-loan-text">
+                    <span class="float-left">Do you have any existing loans?</span>
+                    <span class="float-right switch-position">
+                        <label class="emi-switch">
+                            <input type="checkbox" checked>
+                            <span class="emi-slider"></span>
+                          </label>
+                    </span>
+                </div>
+            </div>
+            <div class="form-content margin-top-15 margin-bottom-15">
+                <label class="form-label margin-bottom-10">EMI of existing loan (optional)</label>
+                <input class="existing-emi-input" type="text" [(ngModel)]="existingLoanEmi" name="existingLoanEmiINput" placeholder="&#8377; 10000">
+            </div>
+        </form>
+
+    </div>
+</div>
